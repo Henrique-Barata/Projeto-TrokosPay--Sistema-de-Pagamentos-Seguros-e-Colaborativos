@@ -80,7 +80,3 @@ Este trabalho contém:
 •um ficheiro para o historico dos pedidos de grupo(Historico.txt), com os pedidos de grupo (<reqGrupoID>:<grupoID>:<owner>:<membro>:<pago>:<membro>:<pago>...)
 •ficheiros png que são gerados apos a execucao da funcao obtainQRCode, que contêm os qr codes gerados
 
-Limitações de implementação:
-•Foi encontrado um problema na execucao do problema que causa pagamentos mal sucedidos, mais especificamente retira-los
-do ficheiro "PedidosInd.txt". Nao conseguimos chegar a origem deste problema devido ao facto de que na maioria das vezes
-os pedidos e pagamentos sao realizados com sucesso
